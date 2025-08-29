@@ -51,7 +51,7 @@ const TestimonialsSection = () => {
       
       <div className="container mx-auto px-4 relative z-10">
         {/* Section Header */}
-        <div className="text-center mb-12 fade-in-up">
+        <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             What Our <span className="gradient-text">Clients Say</span>
           </h2>
@@ -63,7 +63,7 @@ const TestimonialsSection = () => {
 
         {/* Testimonial Carousel */}
         <div className="max-w-4xl mx-auto">
-          <div className="relative fade-in-up">
+          <div className="relative">
             {/* Main Testimonial Card */}
             <div className="glass rounded-3xl p-8 md:p-12 text-center relative overflow-hidden">
               {/* Quote Icon */}
@@ -135,7 +135,7 @@ const TestimonialsSection = () => {
           </div>
 
           {/* Bottom CTA */}
-          <div className="text-center mt-12 fade-in-up" style={{ animationDelay: '0.4s' }}>
+          <div className="text-center mt-12">
             <p className="text-muted-foreground mb-4">
               Ready to join our satisfied clients?
             </p>

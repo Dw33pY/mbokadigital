@@ -63,7 +63,7 @@ const ServicesSection = () => {
       
       <div className="container mx-auto px-4 relative z-10">
         {/* Section Header */}
-        <div className="text-center mb-12 fade-in-up">
+        <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Choose Your <span className="gradient-text">Digital Package</span>
           </h2>
@@ -80,10 +80,9 @@ const ServicesSection = () => {
             return (
               <div
                 key={pkg.name}
-                className={`relative glass rounded-3xl p-8 transition-all duration-500 hover:scale-105 neon-glow fade-in-up ${
+                className={`relative glass rounded-3xl p-8 transition-all duration-500 hover:scale-105 neon-glow ${
                   pkg.popular ? 'ring-2 ring-primary shadow-glow' : ''
                 }`}
-                style={{ animationDelay: `${index * 0.2}s` }}
               >
                 {/* Popular Badge */}
                 {pkg.popular && (
@@ -137,7 +136,7 @@ const ServicesSection = () => {
         </div>
 
         {/* Bottom CTA */}
-        <div className="text-center mt-16 fade-in-up" style={{ animationDelay: '0.8s' }}>
+        <div className="text-center mt-16">
           <p className="text-muted-foreground mb-4">
             Need something custom? Let's discuss your unique requirements.
           </p>
