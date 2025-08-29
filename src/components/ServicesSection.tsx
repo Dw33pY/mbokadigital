@@ -57,13 +57,13 @@ const ServicesSection = () => {
   };
 
   return (
-    <section id="services" className="py-20 relative overflow-hidden">
+    <section id="services" className="py-12 relative overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0 bg-gradient-hero opacity-30" />
       
       <div className="container mx-auto px-4 relative z-10">
         {/* Section Header */}
-        <div className="text-center mb-16 fade-in-up">
+        <div className="text-center mb-12 fade-in-up">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Choose Your <span className="gradient-text">Digital Package</span>
           </h2>

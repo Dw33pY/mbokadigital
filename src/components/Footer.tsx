@@ -31,7 +31,7 @@ const Footer = () => {
       
       <div className="container mx-auto px-4 relative z-10">
         {/* Main Footer Content */}
-        <div className="py-16">
+        <div className="py-12">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Brand & Description */}
             <div className="lg:col-span-2">

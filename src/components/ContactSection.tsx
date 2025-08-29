@@ -39,13 +39,13 @@ const ContactSection = () => {
   };
 
   return (
-    <section id="contact" className="py-20 relative overflow-hidden">
+    <section id="contact" className="py-12 relative overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0 bg-gradient-hero opacity-20" />
       
       <div className="container mx-auto px-4 relative z-10">
         {/* Section Header */}
-        <div className="text-center mb-16 fade-in-up">
+        <div className="text-center mb-12 fade-in-up">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Let's Build Your <span className="gradient-text">Website</span>
           </h2>
@@ -55,7 +55,7 @@ const ContactSection = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-16 max-w-6xl mx-auto">
+        <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
           {/* Contact Form */}
           <div className="fade-in-up">
             <div className="glass rounded-3xl p-8">
