@@ -45,7 +45,7 @@ const ContactSection = () => {
       
       <div className="container mx-auto px-4 relative z-10">
         {/* Section Header */}
-        <div className="text-center mb-12 fade-in-up">
+        <div className="text-center mb-12 animate-slide-up">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Let's Build Your <span className="gradient-text">Website</span>
           </h2>
@@ -57,8 +57,8 @@ const ContactSection = () => {
 
         <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
           {/* Contact Form */}
-          <div className="fade-in-up">
-            <div className="glass rounded-3xl p-8">
+          <div className="animate-slide-up" style={{ animationDelay: '0.2s' }}>
+            <div className="glass rounded-3xl p-8 neon-glow hover:scale-105 transition-all duration-300">
               <h3 className="text-2xl font-semibold mb-6">Send Us a Message</h3>
               
               <form onSubmit={handleSubmit} className="space-y-6">
@@ -133,7 +133,7 @@ const ContactSection = () => {
           </div>
 
           {/* Contact Info */}
-          <div className="fade-in-up" style={{ animationDelay: '0.2s' }}>
+          <div className="animate-slide-up" style={{ animationDelay: '0.4s' }}>
             <div className="space-y-8">
               {/* Contact Details */}
               <div className="glass rounded-3xl p-8">

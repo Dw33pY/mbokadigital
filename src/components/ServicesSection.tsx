@@ -1,5 +1,5 @@
 import { Button } from '@/components/ui/button';
-import { Check, Zap, Crown, Rocket } from 'lucide-react';
+import { Check, Zap, Crown, Rocket, ArrowRight } from 'lucide-react';
 
 const ServicesSection = () => {
   const packages = [
@@ -80,9 +80,10 @@ const ServicesSection = () => {
             return (
               <div
                 key={pkg.name}
-                className={`relative glass rounded-3xl p-8 transition-all duration-500 hover:scale-105 neon-glow ${
-                  pkg.popular ? 'ring-2 ring-primary shadow-glow' : ''
+                className={`relative glass rounded-3xl p-8 transition-all duration-500 hover:scale-110 hover:rotate-1 neon-glow group cursor-pointer animate-slide-up ${
+                  pkg.popular ? 'ring-2 ring-primary shadow-glow animate-pulse-slow' : ''
                 }`}
+                style={{ animationDelay: `${index * 0.2}s` }}
               >
                 {/* Popular Badge */}
                 {pkg.popular && (
@@ -122,13 +123,14 @@ const ServicesSection = () => {
                 {/* CTA Button */}
                 <Button
                   onClick={scrollToContact}
-                  className={`w-full rounded-xl py-6 transition-all duration-300 ${
+                  className={`w-full rounded-xl py-6 transition-all duration-300 group hover:scale-105 ${
                     pkg.popular
-                      ? 'bg-gradient-primary hover:shadow-glow'
-                      : 'glass-strong hover:neon-glow'
+                      ? 'bg-gradient-primary hover:shadow-glow text-primary-foreground'
+                      : 'glass-strong hover:neon-glow hover:bg-gradient-primary hover:text-primary-foreground'
                   }`}
                 >
                   Get Started
+                  <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform duration-300" />
                 </Button>
               </div>
             );
