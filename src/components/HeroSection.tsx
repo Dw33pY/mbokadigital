@@ -67,7 +67,7 @@ const HeroSection = () => {
             <Button
               onClick={scrollToServices}
               size="lg"
-              className="glass-strong neon-glow text-lg px-8 py-6 rounded-full group hover:scale-105 transition-all duration-300"
+              className="bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg border border-primary/20 text-lg px-8 py-6 rounded-full group hover:scale-105 transition-all duration-300 neon-glow"
             >
               Get Started
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform duration-300" />

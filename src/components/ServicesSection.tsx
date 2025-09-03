@@ -126,7 +126,7 @@ const ServicesSection = () => {
                   className={`w-full rounded-xl py-6 transition-all duration-300 group hover:scale-105 ${
                     pkg.popular
                       ? 'bg-gradient-primary hover:shadow-glow text-primary-foreground'
-                      : 'glass-strong hover:neon-glow hover:bg-gradient-primary hover:text-primary-foreground'
+                      : 'bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg border border-primary/20 hover:neon-glow'
                   }`}
                 >
                   Get Started
