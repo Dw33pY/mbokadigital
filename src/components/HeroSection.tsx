@@ -41,12 +41,6 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center">
         <div className="max-w-4xl mx-auto">
-          {/* Badge */}
-          <div className="glass rounded-full px-6 py-2 mb-8 inline-flex items-center space-x-2 animate-slide-down">
-            <Sparkles className="h-4 w-4 text-primary" />
-            <span className="text-sm font-medium">Nairobi's Premier Web Design Agency</span>
-          </div>
-
           {/* Main Headline */}
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 leading-tight animate-slide-up">
             Bring Your{' '}
